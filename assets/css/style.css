@@ -1,19 +1,22 @@
 /*Fonts Imported*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
+/* General Page Styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #edf0f1;
     background-color: #24252a;
+    font-family: "Inter", sans-serif;
 }
 
 li, a, button {
     font-family: "Inter", sans-serif ;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(192, 44, 44);
+    background-color: #1e2024;
 }
 
 header {
@@ -21,6 +24,51 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #1e2024;
 }
 
 
+/* Navigation Bar Styling */
+.nav_links {
+    list-style: none;
+    background-color: #1e2024;
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(180, 50, 50);
+}
+
+button {
+    padding: 9px 25px;
+    color: #edf0f1;
+    background-color: rgba(180, 50, 50, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(180, 50, 50, 0.8); 
+}
+
+.header {
+    text-align: center;
+    color: rgb(180, 50, 50);
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.image1 {
+    align-items: center;
+}
