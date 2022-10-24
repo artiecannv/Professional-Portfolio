@@ -74,7 +74,7 @@ header {
 
 /* I was able to group the header for the classes "about" and "projects" */
 
-.about h2, .projects h3 {
+.about h2, .projects h3, .contact h4 {
     text-align: center;
     font-weight: bold;
     color: rgb(180, 50, 50);
@@ -106,3 +106,10 @@ header {
     flex-wrap: wrap;
     margin: 5%;
 }
+
+.footer {
+    background-color: black;
+    color: rgb(180, 50, 50);
+
+}
+
