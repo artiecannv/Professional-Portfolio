@@ -72,11 +72,14 @@ header {
     padding-bottom: 3%;
 }
 
-.about h2 {
+/* I was able to group the header for the classes "about" and "projects" */
+
+.about h2, .projects h3 {
     text-align: center;
     font-weight: bold;
     color: rgb(180, 50, 50);
     font-size: 200%;
+    text-decoration: underline;
 }
 
 .about p {
@@ -88,7 +91,6 @@ header {
     border-radius: 25%;
     font-family: "Poppins", sans-serif;
 }
-
 
 
 
