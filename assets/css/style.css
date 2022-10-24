@@ -33,7 +33,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 .nav_links li a {
@@ -51,6 +51,12 @@ header {
     font-size: 250%;
 }
 
-.image1 {
-    align-items: center;
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    width: 500px;
+    height: auto;
+    padding-bottom: 30px;
 }
