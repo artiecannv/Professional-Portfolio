@@ -92,5 +92,17 @@ header {
     font-family: "Poppins", sans-serif;
 }
 
+.project1 a {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: #24252a;
+    margin: 5%;
+}
 
-
+.wip img {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
