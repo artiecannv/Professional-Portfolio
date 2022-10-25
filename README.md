@@ -14,7 +14,5 @@ No Steps Required for Installation
 
 Using the Navigation Bar at the top will result in the page scrolling to the specific sections for the user. 
 
-## Credits
 
-I did have some classmates from my Study Group go over this with me. They are: 
 
