@@ -96,13 +96,15 @@ header {
     font-family: "Poppins", sans-serif;
 }
 
-.project1 a {
+.project1 a,
+   .project2 a {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 400px;
     background-color: #24252a;
     margin: 5%;
+    padding: 5%;
 }
 
 .wip img {
